@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2016-07-28"
+  years: 2015, 2018
+lastupdated: "2018-12-04"
 
 ---
 
@@ -10,6 +10,7 @@ lastupdated: "2016-07-28"
 {:shortdesc: .shortdesc}
 {:screen:.screen}
 {:codeblock:.codeblock}
+{:note: .note}
 
 # Getting started with {{site.data.keyword.weather_short}}
 {: #insights_weather_overview}
@@ -28,7 +29,7 @@ Tajikistan, Timor-Leste, Turkey, Turkmenistan, United Arab Emirates,
 Uzbekistan, Vietnam, Yemen. This list is updated when additional information is available.
 
 If you have an existing application that uses the
-[Insights for Weather service](https://console.{DomainName}/docs/services/InsightsWeather/index.html){: new_window},
+[Insights for Weather service](https://{DomainName}/docs/services/InsightsWeather/index.html){: new_window},
 your app will continue to work without any modifications for 90 days after the introduction of
 {{site.data.keyword.weather_short}}. To take advantage of the newly added APIs
 and the improved pricing model, you can migrate your application to the new service.
@@ -39,7 +40,7 @@ and then add the {{site.data.keyword.weather_short}} service to your app.
 
 When you bind your app to {{site.data.keyword.weather_short}}, you are provisioning a
 service instance with unique credentials. Your app uses these credentials with
-the [REST APIs](https://twcservice.{APPDomain}/rest-api/){:new_window} to retrieve weather data.
+the [REST APIs](https://twcservice.mybluemix.net/rest-api/){:new_window} to retrieve weather data.
 
 Follow these steps to retrieve the service credentials from `VCAP_SERVICES`
 and integrate the service instance with your app.
@@ -47,7 +48,7 @@ and integrate the service instance with your app.
 1. Navigate to your application overview page.
 2. Go to the **Environment Variables** section. The `VCAP_SERVICES` information for each of your services is displayed.
 3. Note the user name and password values from the {{site.data.keyword.weather_short}} service.
-To try the [REST APIs](https://twcservice.{APPDomain}/rest-api/){:new_window},
+To try the [REST APIs](https://twcservice.mybluemix.net/rest-api/){:new_window},
 you must enter these credentials when you are prompted to log in.
 Your `VCAP_SERVICES` looks similar to the following example:
 
@@ -71,15 +72,14 @@ Your `VCAP_SERVICES` looks similar to the following example:
 }
 ```
 
-**Note:** Each region is independent. You cannot use service credentials
-that are provisioned to you in one region to authenticate to a service in another region.
-Failure to enter proper credentials results in an *Unauthorized* message in the response body.
+Each region is independent. You cannot use service credentials that are provisioned to you in one region to authenticate to a service in another region. Failure to enter proper credentials results in an *Unauthorized* message in the response body.
+{:note}
 
 # rellinks
 {: #rellinks}
 ## samples
 {: #samples}
-* [{{site.data.keyword.weather_short}} demo app](http://weather-company-data-demo.{APPDomain}){: new_window}
+* [{{site.data.keyword.weather_short}} demo app](http://weather-company-data-demo.mybluemix.net){: new_window}
 * [{{site.data.keyword.weather_short}} Deep Dive video](https://youtu.be/pZHXIibziUo){: new_window}
 * [Places Insights hands-on lab](https://github.com/IBM-Bluemix/places-insights-lab){: new_window}
 * [{{site.data.keyword.Bluemix_notm}} + Weather sample app](https://github.com/IBM-Bluemix/insights-weather){: new_window}
@@ -87,20 +87,20 @@ Failure to enter proper credentials results in an *Unauthorized* message in the 
 
 ## api
 {: #api}
-* [REST API](https://twcservice.{APPDomain}/rest-api/){: new_window}
+* [REST API](https://twcservice.mybluemix.net/rest-api/){: new_window}
 
 ## compatible runtimes
 {: #buildpacks}
-* [Liberty for Java](https://console.{DomainName}/docs/runtimes/liberty/index.html){: new_window}
-* [Node.js](https://console.{DomainName}/docs/runtimes/nodejs/index.html){: new_window}
-* [Ruby](https://console.{DomainName}/docs/runtimes/ruby/index.html){: new_window}
-* [Go](https://console.{DomainName}/docs/runtimes/go/index.html){: new_window}
-* [PHP](https://console.{DomainName}/docs/runtimes/php/index.html){: new_window}
-* [Python](https://console.{DomainName}/docs/runtimes/python/index.html){: new_window}
+* [Liberty for Java](https://{DomainName}/docs/runtimes/liberty/index.html){: new_window}
+* [Node.js](https://{DomainName}/docs/runtimes/nodejs/index.html){: new_window}
+* [Ruby](https://{DomainName}/docs/runtimes/ruby/index.html){: new_window}
+* [Go](https://{DomainName}/docs/runtimes/go/index.html){: new_window}
+* [PHP](https://{DomainName}/docs/runtimes/php/index.html){: new_window}
+* [Python](https://{DomainName}/docs/runtimes/python/index.html){: new_window}
 
 ## general
 {: #general}
-* [Adding a service to your application](/docs/services/reqnsi.html){: new_window}
-* [End-to-end development](https://console.{DomainName}/docs/cfapps/ee.html){: new_window}
-* [{{site.data.keyword.Bluemix_notm}} Pricing Sheet](https://console.{DomainName}/pricing/){: new_window}
+* [Adding a service to your application](https://{DomainName}/docs/services/reqnsi.html){: new_window}
+* [End-to-end development](https://{DomainName}/docs/cfapps/ee.html){: new_window}
+* [{{site.data.keyword.Bluemix_notm}} Pricing Sheet](https://{DomainName}/pricing/){: new_window}
 * [{{site.data.keyword.Bluemix_notm}} Prerequisites](https://developer.ibm.com/bluemix/support/#prereqs){: new_window}
