@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2016-08-22"
+  years: 2015, 2017, 2018
+lastupdated: "2019-01-25"
 
 ---
 
@@ -20,7 +20,7 @@ The Weather Company (TWC) into your {{site.data.keyword.Bluemix}} applications.
 
 You can add weather observations and forecasts to your {{site.data.keyword.Bluemix_notm}}
 application and display the weather data for an area that is specified by a
-geolocation by using the [REST APIs](https://twcservice.{APPDomain}/rest-api/){:new_window}.
+geolocation by using the [REST APIs](https://twcservice.mybluemix.net/rest-api/){:new_window}.
 The Weather Company is the most comprehensive provider of historical and forecast
 weather data. Data for all forms of weather, including precipitation, barometric pressure,
 wind, and thunderstorms, is captured.
@@ -84,6 +84,6 @@ When you use the forums to ask a question, tag your question so that it is seen 
 * If you experience issues with the service or getting started instructions, use the [IBM developerWorks Answers forum](https://developer.ibm.com/answers/topics/weather/?smartspace=bluemix){:new_window}. Include the **bluemix** and **weather** tags.
 * If you have questions about migrating your app from Insights for Weather to {{site.data.keyword.weather_short}}, contact us at [IBM developerWorks](http://www.ibm.com/developerworks){:new_window}.
 
-See [Getting help](https://console.{DomainName}/docs/support/index.html#getting-help){: new_window} for more details about using the forums.
+See [Getting help](https://{DomainName}/docs/support/index.html#getting-help){: new_window} for more details about using the forums.
 
-See [Contacting support](https://console.{DomainName}/docs/support/index.html#contacting-support){: new_window} for information about opening an IBM support ticket, or about support levels and ticket severities.
+See [Contacting support](https://{DomainName}/docs/support/index.html#contacting-support){: new_window} for information about opening an IBM support ticket, or about support levels and ticket severities.

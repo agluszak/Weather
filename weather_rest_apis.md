@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2016-08-22"
+  years: 2015, 2017, 2018
+lastupdated: "2019-01-25"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2016-08-22"
 # Using the {{site.data.keyword.weather_short}} REST APIs
 {: #rest_apis}
 
-You can use the [REST APIs](https://twcservice.{APPDomain}/rest-api/){:new_window}
+You can use the [REST APIs](https://twcservice.mybluemix.net/rest-api/){:new_window}
 to retrieve weather data. You can test API operations and instantly view the results
 to help you build your applications faster.
 {: shortdesc}
