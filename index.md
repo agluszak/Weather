@@ -21,8 +21,7 @@ The Weather Company (TWC) into your {{site.data.keyword.Bluemix}} applications.
 
 **Attention:** Currently, the {{site.data.keyword.weather_short}} service **may not** be purchased
 or used in the following countries or regions: Afghanistan, Armenia, Azerbaijan,
-Bahrain, Bangladesh, Bhutan, Brunei, Cambodia, China, Cyprus, Georgia,
-Indonesia, Iran, Iraq, Japan, Jordan, Kazakhstan, Kuwait, Kyrgyzstan, Laos,
+Bahrain, Bangladesh, Bhutan, Brunei, Cambodia, China, Cyprus, Georgia, Iran, Iraq, Japan, Jordan, Kazakhstan, Kuwait, Kyrgyzstan, Laos,
 Lebanon, Malaysia, Maldives, Mongolia, Myanmar, Nepal, Oman, Pakistan, Philippines,
 Qatar, Russia, Saudi Arabia, Singapore, South Korea, Sri Lanka, Syria,
 Tajikistan, Timor-Leste, Turkey, Turkmenistan, United Arab Emirates,
